@@ -1,0 +1,30 @@
+.address{
+    display: flex;
+    justify-content: center;
+}
+
+.container_address{
+    width: 30%;
+    min-height: 600px;
+    border: 1px solid black;
+    /* text-align: center; */
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 100px;
+    
+}
+.container_address label{
+    text-align: flex-start;
+    margin: 40px;
+    font-weight: bold;
+}
+
+.container_address input{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.container_address button{
+    width: 100%;
+    background-color: #ff9f00;
+}

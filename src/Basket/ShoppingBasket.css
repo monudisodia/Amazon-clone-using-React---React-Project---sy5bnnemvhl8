@@ -1,0 +1,15 @@
+
+h2{
+    text-align: left;
+    margin: 0 25px;
+}
+
+
+.display_card{
+     display: flex;
+     flex-wrap: wrap;
+}
+.shopping_basket{
+    /* max-height: 100vh; */
+    min-height: 40vh;
+}

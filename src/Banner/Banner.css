@@ -1,0 +1,13 @@
+.banner{
+    width: 100vw;
+    /* margin-bottom: 2px; */
+}
+.banner_img{
+    width: 100%;
+    /* min-width: 50%; */
+    /* height: auto; */
+    position:absolute;
+    z-index: -1;
+    left: 0px;
+    top: 60px;
+}

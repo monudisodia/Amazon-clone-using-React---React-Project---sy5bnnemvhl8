@@ -1,0 +1,79 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+    height: 100vh;
+    
+}
+
+.amazon_title{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.logo_name{
+    
+    color: black;
+    font-weight: bolder;
+    font-size: xxx-large;
+  
+}
+
+.logo_img{
+    
+    width: 6%;
+    margin-left: -50px;
+}
+
+.create_login{
+    border: 1px solid black;
+    width: 25%;
+    height: 500px;
+    margin: 30px 0;
+    border-radius: 5px;
+    
+}
+
+h2{
+    margin: 20px 30px;
+    font-size: xx-large;
+}
+
+.inpud_details{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+}
+input{
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+button{
+   height: 40px;
+   border-radius: 3px;
+   border: 1px solid black;
+}
+
+.sign_btn{
+    background-color: #ff9f00;
+}
+
+label{
+    text-align: left;
+    margin: 7px 0;
+}
+
+.create_login p{
+    overflow-wrap:normal;
+    text-align: center;
+}
+
+.create_login span{
+    color: blue;
+}

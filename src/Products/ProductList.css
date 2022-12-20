@@ -1,0 +1,13 @@
+.productlist {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 500px;
+    background-image: linear-gradient(to top, rgba(239, 239, 239, 255), rgba(239, 239, 239, 0.053));
+    position: absolute;
+    height: 300px;
+    top: 0;
+    left: 0;
+    min-height: 50vh;
+}

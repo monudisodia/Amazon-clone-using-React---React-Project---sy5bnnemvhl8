@@ -1,0 +1,17 @@
+.order_success{
+    margin-top: 60px;
+    /* max-height: 100vh; */
+    min-height: 50vh;
+}
+
+.success_container{
+    display: flex;
+    flex-direction: column;
+}
+.success_payment_address{
+    height: 200px;
+}
+.successful{
+    display: flex;
+    flex-wrap: wrap;
+}
