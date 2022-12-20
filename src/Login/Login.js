@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import arrow from '../Header/arrow.png'
 import './Login.css'
+import { firebaseConfig } from './Firebase.js'
+import { initializeApp } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from 'react-router-dom';
 import { useDataValue } from '../CardsData/DataProvider.js'
@@ -9,6 +11,7 @@ import Footer from '../Footer/Footer';
 const Login = () => {
 
 
+    const app = initializeApp(firebaseConfig);
 
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
@@ -59,11 +62,9 @@ const Login = () => {
                         <button onClick={signUp}>Create Your Amazon Account</button><br />
                     </div>
                 </div>
-                
             </div>
             <Footer />
         </>
-
     )
 }
 

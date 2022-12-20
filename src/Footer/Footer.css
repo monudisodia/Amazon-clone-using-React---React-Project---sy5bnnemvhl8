@@ -4,7 +4,7 @@
     color: white;
     display: flex;
     justify-content: space-around;
-    padding: .5rem 3rem;
+    padding: 1rem 3rem;
     flex-wrap: wrap;
     box-sizing: border-box;
 }

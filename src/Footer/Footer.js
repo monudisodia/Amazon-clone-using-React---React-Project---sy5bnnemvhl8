@@ -39,7 +39,7 @@ function Footer() {
       </div>
       <div className="footerLast">
         <img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="logo" />
-        © 1996-2022, Amazon.com, Inc. or its affiliates
+        © 1996-2022, Amazon.com, Inc.
       </div>
     </>
   );
